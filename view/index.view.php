@@ -9,7 +9,7 @@
   <body>
       <div class="row">
         <div class="well span12">
-          <h2>What would you like to do? If words are here, then it works.</h2>
+          <h2>What would you like to do?</h2>
           <div class="span3"> <!-- Column 1 -->
             <div>
               <a class="btn btn-large btn-block btn-primary" type="button" href="./newInvoice.php">Create New Invoice</a></div>
