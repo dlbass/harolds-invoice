@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harold's Furniture & Flooring - Flooring Sales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span3"> <!-- Side Menu -->
+        <ul class="nav nav-list hf-sidenav">
+          <h3>New Invoice</h3>
+          <h4>Quick Navigation</h4>
+          <li class="">
+            <a href="#customer">
+            <i class="icon-user"></i>
+               Customer
+            </a>
+          </li>
+          <li class="">
+            <a href="#order">
+              <i class="icon-info-sign"></i>
+                Order
+              </a>
+          </li>
+          <li class="">
+            <a href="#products">
+              <i class="icon-th-list"></i>
+                Products
+            </a>
+          </li>
+          <li class="">
+            <a href="#summary">
+              <i class="icon-ok"></i>
+                Summary
+            </a>
+          </li>
+          <li class="">
+            <span class="btn">
+             <a href="#">
+               Save
+             </a>
+            </span>
+            <span class="btn">
+              <a href="#">
+                Close
+              </a>
+            </span>
+          </li>
+          <h4>Main Navigation</h4>
+          <li>
+            <a href="./invoiceList.html">
+              Invoice List
+            </a>
+          </li>
+        </ul>
+        </div>
+        <div class="span9"> <!-- Main Content -->
+          <div class="invoicenumber">Invoice: F 3750J</div>
+        <section id="customer">
+          <form>
+            <fieldset>
+              <legend>Customer Information</legend>
+              <label>First Name</label>
+              <input type="text" placeholder="...">
+              <label>Last Name</label>
+              <input type="text" placeholder="...">
+              <label>Address</label>
+              <input type="text" placeholder="...">
+              <label>City</label>
+              <input type="text" placeholder="...">
+              <label>State</label>
+              <input type="text" placeholder="...">
+              <label>Zipcode</label>
+              <input type="text" placeholder="...">
+              <label>Phone</label>
+              <input type="text" placeholder="...">
+            </fieldset>
+          </form>
+        </section><br><br>
+        <section id="order">
+          <form>
+            <fieldset>
+              <legend>Order Information</legend>
+              <label>Job Location</label>
+              <input type="text" placeholder="...">
+              <label>Contractor</label>
+              <input type="text" placeholder="...">
+              <label>Sold By</label>
+              <input type="text" placeholder="...">
+              <label>Date of Order</label>
+              <input type="text" placeholder="...">
+              <label>Invoice #</label>
+              <input type="text" placeholder="...">
+              <label>Scheduled Installation Date</label>
+              <input type="text" placeholder="...">
+              <label>Payment Type</label>
+              <input type="text" placeholder="...">
+              <label>Subfloor Type</label>
+              <input type="text" placeholder="...">
+              <label>Furntiture</label>
+              <input type="text" placeholder="...">
+              <label>Appliances</label>
+              <input type="text" placeholder="...">
+              <label>Preparation</label>
+              <input type="text" placeholder="...">
+              <label>Installation Instructions</label>
+              <input type="text" placeholder="...">
+            </fieldset>
+          </form>
+        </section><br><br>
+        <section id="products">
+          <form>
+            <fieldset>
+              <legend>Product Information</legend>
+              <label>Manufacturer / Distributor</label>
+              <input type="text" placeholder="...">
+              <label>Product Name</label>
+              <input type="text" placeholder="...">
+              <label>Color Name</label>
+              <input type="text" placeholder="...">
+              <label>Flooring Type</label>
+              <input type="text" placeholder="...">
+              <label>Width</label>
+              <input type="text" placeholder="...">
+              <label>Length</label>
+              <input type="text" placeholder="...">
+              <label>Total</label>
+              <input type="text" placeholder="...">
+              <label>Price</label>
+              <input type="text" placeholder="...">
+              <label>Amount</label>
+              <input type="text" placeholder="...">
+            </fieldset>
+          </form>
+          <span class="btn">
+            <a href="#">
+              Save and add another product
+            </a>
+          </span>
+        </section> <br><br>
+        <section id="summary">
+          <legend>Summary</legend>
+          <div class="span4">
+            <h4>Customer</h4>
+              <address>
+                <strong>Jimmy Smith</strong><br>
+                1234 Sample Road<br>
+                Andalusia, Alabama 36420<br>
+                Phone: (555)-555-5555
+              </address>
+          </div>
+          <div class="span4">
+            <h4>Order</h4>
+              <strong>Job Location: </strong>DataField<br>
+              <strong>Contractor: </strong>DataField<br>
+              <strong>Sold By: </strong>DataField<br>
+              <strong>Date of Order: </strong>DataField<br>
+              <strong>Invoice: </strong>DataField<br>
+              <strong>Scheduled Installation Date: </strong>DataField<br>
+              <strong>Payment Type: </strong>DataField<br>
+          </div>
+        </section>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

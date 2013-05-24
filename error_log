@@ -1,0 +1,238 @@
+[23-May-2013 15:29:15 America/Chicago] PHP Parse error:  syntax error, unexpected T_STRING in /home/harolds2/public_html/invoices/invoiceList.php on line 5
+[23-May-2013 15:30:37 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/harolds2/public_html/invoices/invoiceList.php on line 3
+[23-May-2013 15:30:49 America/Chicago] PHP Parse error:  syntax error, unexpected T_STRING in /home/harolds2/public_html/invoices/invoiceList.php on line 5
+[23-May-2013 15:31:29 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'user'@'localhost' (using password: YES)' in /home/harolds2/public_html/invoices/db.php:13
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(13): PDO->__construct('mysql:host=loca...', 'user', 'JQ5HD^~}75?a')
+#1 /home/harolds2/public_html/invoices/dbConnect.php(8): Invoice\DB\connect(Array)
+#2 /home/harolds2/public_html/invoices/invoiceList.php(3): require('/home/harolds2/...')
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 13
+[23-May-2013 15:34:11 America/Chicago] PHP Warning:  include(view/invoiceList.view.php.view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/harolds2/public_html/invoices/view/layout.php on line 37
+[23-May-2013 15:34:11 America/Chicago] PHP Warning:  include(view/invoiceList.view.php.view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/harolds2/public_html/invoices/view/layout.php on line 37
+[23-May-2013 15:34:11 America/Chicago] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'view/invoiceList.view.php.view.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/harolds2/public_html/invoices/view/layout.php on line 37
+[23-May-2013 15:34:17 America/Chicago] PHP Warning:  include(view/invoiceList.view.php.view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/harolds2/public_html/invoices/view/layout.php on line 37
+[23-May-2013 15:34:17 America/Chicago] PHP Warning:  include(view/invoiceList.view.php.view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/harolds2/public_html/invoices/view/layout.php on line 37
+[23-May-2013 15:34:17 America/Chicago] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'view/invoiceList.view.php.view.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/harolds2/public_html/invoices/view/layout.php on line 37
+[23-May-2013 15:35:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 30
+[23-May-2013 15:35:38 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 30
+[23-May-2013 15:39:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 30
+[23-May-2013 15:40:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 30
+[23-May-2013 15:45:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 30
+[23-May-2013 15:49:16 America/Chicago] PHP Warning:  include(view/customerList.view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/harolds2/public_html/invoices/view/layout.php on line 38
+[23-May-2013 15:49:16 America/Chicago] PHP Warning:  include(view/customerList.view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/harolds2/public_html/invoices/view/layout.php on line 38
+[23-May-2013 15:49:16 America/Chicago] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'view/customerList.view.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/harolds2/public_html/invoices/view/layout.php on line 38
+[23-May-2013 15:49:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 30
+[23-May-2013 15:49:21 America/Chicago] PHP Fatal error:  Class 'Form' not found in /home/harolds2/public_html/invoices/newInvoice.php on line 73
+[23-May-2013 15:49:22 America/Chicago] PHP Warning:  include(view/customerList.view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/harolds2/public_html/invoices/view/layout.php on line 38
+[23-May-2013 15:49:22 America/Chicago] PHP Warning:  include(view/customerList.view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/harolds2/public_html/invoices/view/layout.php on line 38
+[23-May-2013 15:49:22 America/Chicago] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'view/customerList.view.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/harolds2/public_html/invoices/view/layout.php on line 38
+[23-May-2013 15:49:22 America/Chicago] PHP Fatal error:  Class 'Form' not found in /home/harolds2/public_html/invoices/newInvoice.php on line 73
+[23-May-2013 15:49:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 30
+[23-May-2013 15:50:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:51:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:54:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:55:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:55:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:55:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:56:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:56:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:57:33 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:57:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 15:57:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:02:03 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'harolds2_harolds.invoices' doesn't exist' in /home/harolds2/public_html/invoices/db.php:30
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(30): PDO->query('SELECT * FROM i...')
+#1 /home/harolds2/public_html/invoices/invoiceList.php(6): Invoice\DB\get('invoices', Object(PDO))
+#2 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 30
+[23-May-2013 16:03:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:10:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:10:32 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:28:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:37:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSTER INTO
+			product(	manufacturer_or_distributor,
+						product_name,
+						c' at line 1' in /home/harolds2/public_html/invoices/db.php:24
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(24): PDOStatement->execute(Array)
+#1 /home/harolds2/public_html/invoices/class/classes.php(162): Invoice\DB\query('INSTER INTO????...', Array, Object(PDO))
+#2 /home/harolds2/public_html/invoices/newInvoice.php(10): Form->put_in_tables(Object(PDO))
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 24
+[23-May-2013 16:39:36 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSTER INTO
+			product_information (	manufacturer_or_distributor,
+						product_' at line 1' in /home/harolds2/public_html/invoices/db.php:24
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(24): PDOStatement->execute(Array)
+#1 /home/harolds2/public_html/invoices/class/classes.php(162): Invoice\DB\query('INSTER INTO????...', Array, Object(PDO))
+#2 /home/harolds2/public_html/invoices/newInvoice.php(10): Form->put_in_tables(Object(PDO))
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 24
+[23-May-2013 16:42:14 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSTER INTO
+			product_information (	manufacturer_or_distributor,
+						product_' at line 1' in /home/harolds2/public_html/invoices/db.php:24
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(24): PDOStatement->execute(Array)
+#1 /home/harolds2/public_html/invoices/class/classes.php(162): Invoice\DB\query('INSTER INTO????...', Array, Object(PDO))
+#2 /home/harolds2/public_html/invoices/newInvoice.php(10): Form->put_in_tables(Object(PDO))
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 24
+[23-May-2013 16:46:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSTER INTO
+			product_information (	manufacturer_or_distributor,
+						product_' at line 1' in /home/harolds2/public_html/invoices/db.php:24
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(24): PDOStatement->execute(Array)
+#1 /home/harolds2/public_html/invoices/class/classes.php(162): Invoice\DB\query('INSTER INTO????...', Array, Object(PDO))
+#2 /home/harolds2/public_html/invoices/newInvoice.php(10): Form->put_in_tables(Object(PDO))
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 24
+[23-May-2013 16:48:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:52:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:52:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:55:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:55:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:55:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:55:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:56:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:56:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:56:43 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:56:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:57:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:57:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:57:48 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:57:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:57:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:58:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 16:59:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 17:03:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:18:14 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:18:17 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:18:32 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:19:15 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, object given in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 17:19:15 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 33
+[23-May-2013 17:19:46 America/Chicago] PHP Warning:  extract() expects parameter 1 to be array, object given in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 29
+[23-May-2013 17:19:46 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 33
+[23-May-2013 17:22:51 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/harolds2/public_html/invoices/invoiceList.php on line 15
+[23-May-2013 17:25:38 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:27:18 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:27:25 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:27:26 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:27:29 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:27:38 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:28:17 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:28:23 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:28:39 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:28:51 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:28:56 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:28:59 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:29:08 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:29:47 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 17:29:59 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting T_PAAMAYIM_NEKUDOTAYIM in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 31
+[23-May-2013 17:30:23 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting T_PAAMAYIM_NEKUDOTAYIM in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 31
+[23-May-2013 17:40:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 29
+[23-May-2013 17:42:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 29
+[23-May-2013 17:46:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 29
+[23-May-2013 17:46:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 29
+[23-May-2013 17:50:32 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 17:51:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 17:51:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 17:51:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 17:51:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 17:51:36 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 17:52:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 17:52:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 17:52:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 18:10:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 18:10:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 18:11:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 18:12:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 18:12:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 18:12:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 18:12:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 18:32:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/customerList.view.php on line 32
+[23-May-2013 18:44:03 America/Chicago] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 59
+[23-May-2013 18:44:56 America/Chicago] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 59
+[23-May-2013 18:45:45 America/Chicago] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 59
+[23-May-2013 18:45:55 America/Chicago] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 59
+[23-May-2013 18:46:12 America/Chicago] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 59
+[23-May-2013 18:46:18 America/Chicago] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 59
+[23-May-2013 18:46:41 America/Chicago] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 59
+[23-May-2013 18:48:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 57
+[23-May-2013 18:49:17 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 57
+[23-May-2013 18:49:38 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 57
+[23-May-2013 18:50:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/newInvoice.view.php on line 57
+[23-May-2013 21:02:15 America/Chicago] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/harolds2/public_html/invoices/class/classes.php on line 138
+[23-May-2013 21:03:10 America/Chicago] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/harolds2/public_html/invoices/class/classes.php on line 138
+[23-May-2013 21:03:46 America/Chicago] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/harolds2/public_html/invoices/class/classes.php on line 138
+[23-May-2013 21:03:47 America/Chicago] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/harolds2/public_html/invoices/class/classes.php on line 138
+[23-May-2013 21:04:38 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'customer_id' in 'field list'' in /home/harolds2/public_html/invoices/db.php:24
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(24): PDOStatement->execute(Array)
+#1 /home/harolds2/public_html/invoices/class/classes.php(171): Invoice\DB\query('INSERT INTO????...', Array, Object(PDO))
+#2 /home/harolds2/public_html/invoices/newInvoice.php(13): Form->put_in_tables(Object(PDO))
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 24
+[23-May-2013 21:05:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'customer_id' in 'field list'' in /home/harolds2/public_html/invoices/db.php:24
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(24): PDOStatement->execute(Array)
+#1 /home/harolds2/public_html/invoices/class/classes.php(171): Invoice\DB\query('INSERT INTO????...', Array, Object(PDO))
+#2 /home/harolds2/public_html/invoices/newInvoice.php(13): Form->put_in_tables(Object(PDO))
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 24
+[23-May-2013 21:07:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:07:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:08:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:08:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:09:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:09:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:09:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:10:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:10:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:10:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:16:36 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:16:36 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:16:36 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:21:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:21:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:21:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/view/invoiceList.view.php on line 32
+[23-May-2013 21:29:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/harolds2/public_html/invoices/db.php:24
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(24): PDOStatement->execute(Array)
+#1 /home/harolds2/public_html/invoices/class/classes.php(193): Invoice\DB\query('INSERT INTO????...', Array, Object(PDO))
+#2 /home/harolds2/public_html/invoices/newInvoice.php(15): Form->create_invoice(Object(PDO))
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 24
+[23-May-2013 21:32:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/harolds2/public_html/invoices/db.php:24
+Stack trace:
+#0 /home/harolds2/public_html/invoices/db.php(24): PDOStatement->execute(Array)
+#1 /home/harolds2/public_html/invoices/class/classes.php(193): Invoice\DB\query('INSERT INTO????...', Array, Object(PDO))
+#2 /home/harolds2/public_html/invoices/newInvoice.php(15): Form->create_invoice(Object(PDO))
+#3 {main}
+  thrown in /home/harolds2/public_html/invoices/db.php on line 24
+[23-May-2013 21:46:39 America/Chicago] PHP Warning:  Missing argument 2 for Invoice\DB\query(), called in /home/harolds2/public_html/invoices/class/classes.php on line 177 and defined in /home/harolds2/public_html/invoices/db.php on line 22
+[23-May-2013 21:46:39 America/Chicago] PHP Warning:  Missing argument 3 for Invoice\DB\query(), called in /home/harolds2/public_html/invoices/class/classes.php on line 177 and defined in /home/harolds2/public_html/invoices/db.php on line 22
+[23-May-2013 21:46:39 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/harolds2/public_html/invoices/db.php on line 23
+[23-May-2013 21:54:27 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/class/classes.php on line 178
+[23-May-2013 22:01:46 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/class/classes.php on line 179
+[23-May-2013 22:02:08 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/class/classes.php on line 179
+[23-May-2013 22:12:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/class/classes.php on line 179
+[23-May-2013 22:13:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/harolds2/public_html/invoices/class/classes.php on line 179
+[23-May-2013 22:22:45 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/harolds2/public_html/invoices/class/classes.php on line 177
+[23-May-2013 22:22:50 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/harolds2/public_html/invoices/class/classes.php on line 177
+[23-May-2013 22:22:59 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/harolds2/public_html/invoices/class/classes.php on line 177
+[23-May-2013 22:39:28 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/harolds2/public_html/invoices/newCustomer.php on line 16
+[23-May-2013 22:39:40 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/harolds2/public_html/invoices/newCustomer.php on line 15
+[23-May-2013 22:39:41 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/harolds2/public_html/invoices/newCustomer.php on line 15
+[23-May-2013 22:40:51 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/harolds2/public_html/invoices/newCustomer.php on line 15
+[23-May-2013 22:40:56 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/harolds2/public_html/invoices/newCustomer.php on line 15
+[23-May-2013 22:44:57 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/harolds2/public_html/invoices/newCustomer.php on line 14
+[23-May-2013 22:48:24 America/Chicago] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/harolds2/public_html/invoices/newCustomer.php on line 15
+[23-May-2013 22:50:00 America/Chicago] PHP Parse error:  syntax error, unexpected T_ECHO in /home/harolds2/public_html/invoices/newCustomer.php on line 15
+[23-May-2013 22:50:20 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/harolds2/public_html/invoices/newCustomer.php on line 15
+[23-May-2013 23:20:59 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/harolds2/public_html/invoices/class/classes.php on line 180
+[23-May-2013 23:22:36 America/Chicago] PHP Warning:  get_object_vars() expects parameter 1 to be object, array given in /home/harolds2/public_html/invoices/class/classes.php on line 179
+[23-May-2013 23:22:58 America/Chicago] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in /home/harolds2/public_html/invoices/class/classes.php on line 179
+[23-May-2013 23:35:33 America/Chicago] PHP Parse error:  syntax error, unexpected ']', expecting '(' in /home/harolds2/public_html/invoices/class/classes.php on line 179
+[24-May-2013 11:01:11 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/harolds2/public_html/invoices/customerList.php on line 14
+[24-May-2013 11:02:36 America/Chicago] PHP Fatal error:  Call to a member function fetchall() on a non-object in /home/harolds2/public_html/invoices/customerList.php on line 13
